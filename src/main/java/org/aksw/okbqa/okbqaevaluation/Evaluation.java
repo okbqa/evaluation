@@ -32,7 +32,7 @@ public class Evaluation {
     public static void main(String args[]) {
         String language = "en";
         String service = null;
-        String benchmarkFile = "resources/qald5.json";
+        String benchmarkFile = "resources/qald5-train.json";
         if (args.length == 0) {
             System.out.println("Config error. Give name of service als argument");
             System.exit(1);
